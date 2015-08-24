@@ -92,12 +92,6 @@
     <Content Include="Chap 07 - HoverImage\images\h4.jpg" />
     <Content Include="Chap 07 - HoverImage\images\h5.jpg" />
     <Content Include="Chap 07 - HoverImage\images\h6.jpg" />
-    <Content Include="Chap 07 - HoverImage\thumbnails\t1.jpg" />
-    <Content Include="Chap 07 - HoverImage\thumbnails\t2.jpg" />
-    <Content Include="Chap 07 - HoverImage\thumbnails\t3.jpg" />
-    <Content Include="Chap 07 - HoverImage\thumbnails\t4.jpg" />
-    <Content Include="Chap 07 - HoverImage\thumbnails\t5.jpg" />
-    <Content Include="Chap 07 - HoverImage\thumbnails\t6.jpg" />
     <Content Include="Chap 07 - ImageSwap\ImageSwap.css" />
     <Content Include="Chap 07 - ImageSwap\ImageSwap.html" />
     <Content Include="Chap 07 - ImageSwap\ImageSwap.js" />

@@ -4,3 +4,9 @@ C:\Users\Carlos\documents\visual studio 2013\Projects\JavaPractice\JavaPractice\
 C:\Users\Carlos\documents\visual studio 2013\Projects\JavaPractice\JavaPractice\obj\Debug\JavaPractice.dll
 C:\Users\Carlos\documents\visual studio 2013\Projects\JavaPractice\JavaPractice\obj\Debug\JavaPractice.pdb
 C:\Users\Carlos\documents\visual studio 2013\Projects\JavaPractice\JavaPractice\obj\Debug\JavaPractice.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.dll.config
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.dll
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.pdb
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.dll
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.pdb

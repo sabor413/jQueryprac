@@ -1,0 +1,12 @@
+﻿$(document).ready(function () {
+    $("#faqs h2").toggle(
+        function () {
+            $(this).addClass("minus");
+            $(this).next().slideDown(1000);
+        },
+        function () {
+            $(this).removeClass("minus");
+            $(this).next().fadeOut(1000);
+        }
+    ); // end toggle
+}); // end ready

@@ -110,6 +110,12 @@
     <Content Include="Chap 07 - jQuery\jQaccordian.css" />
     <Content Include="Chap 07 - jQuery\jQaccordian.html" />
     <Content Include="Chap 07 - jQuery\jquery-1.11.3.min.js" />
+    <Content Include="Chap 08 - jQuery\AnimjQ.js" />
+    <Content Include="Chap 08 - jQuery\AnimjQ2.js" />
+    <Content Include="Chap 08 - jQuery\FAQjQuery.css" />
+    <Content Include="Chap 08 - jQuery\FAQjQuery.html" />
+    <Content Include="Chap 08 - jQuery\images\minus.png" />
+    <Content Include="Chap 08 - jQuery\images\plus.png" />
     <Content Include="Chapter Five\EmailAppCh5.js" />
     <Content Include="Chapter Five\email_appCh5.html" />
     <Content Include="Chapter Five\FuncExCh5.css" />

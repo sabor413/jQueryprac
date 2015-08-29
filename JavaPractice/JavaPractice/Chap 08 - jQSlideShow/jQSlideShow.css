@@ -47,3 +47,9 @@ p {
 	padding-bottom: .25em;
 	padding-left: 25px;
 }
+img {
+    height: 250px;
+}
+#slides img {
+    display: none;
+}

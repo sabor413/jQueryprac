@@ -110,6 +110,16 @@
     <Content Include="Chap 07 - jQuery\jQaccordian.css" />
     <Content Include="Chap 07 - jQuery\jQaccordian.html" />
     <Content Include="Chap 07 - jQuery\jquery-1.11.3.min.js" />
+    <Content Include="Chap 08 - jQSlideShow\images\casting1.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\images\casting2.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\images\casting3.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\images\catchrelease.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\images\fish.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\images\fish1.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\images\lures.jpg" />
+    <Content Include="Chap 08 - jQSlideShow\jQSlideShow.css" />
+    <Content Include="Chap 08 - jQSlideShow\jQSlideShow.js" />
+    <Content Include="Chap 08 - jQSlideShow\jQSlideShow.html" />
     <Content Include="Chap 08 - jQuery\AnimjQ.js" />
     <Content Include="Chap 08 - jQuery\AnimjQ2.js" />
     <Content Include="Chap 08 - jQuery\FAQjQuery.css" />

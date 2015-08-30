@@ -120,6 +120,7 @@
     <Content Include="Chap 08 - jQSlideShow\jQSlideShow.css" />
     <Content Include="Chap 08 - jQSlideShow\jQSlideShow.js" />
     <Content Include="Chap 08 - jQSlideShow\jQSlideShow.html" />
+    <Content Include="Chap 08 - jQSlideShow\jQSlideShow2.js" />
     <Content Include="Chap 08 - jQuery\AnimjQ.js" />
     <Content Include="Chap 08 - jQuery\AnimjQ2.js" />
     <Content Include="Chap 08 - jQuery\FAQjQuery.css" />

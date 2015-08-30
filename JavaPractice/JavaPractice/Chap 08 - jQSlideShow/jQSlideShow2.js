@@ -7,15 +7,17 @@
             function () {
                 $("#caption").fadeOut(1000);
                 $("#slide").fadeOut(1000,
-                if (nextSlide.next().length == 0) {
-                    nextSlide = $("#slides img:first-child");
-                }
-                else {
-                    nextSlide = nextSlide.next();
-                }
-                nextSlideSource = nextSlide.attr("src");
-                nextCaption = nextSlide.attr("alt");
-                $("#slide").attr("src", nextSlideSource).fadeIn(1000);
-                $("#caption").text(nextCaption).fadeIn(1000);
-            }, 3000)// end setInterval
+                    function() {
+                        if (nextSlide.next().length == 0) {
+                            nextSlide = $("#slides img:first-child");
+                        }
+                        else {
+                            nextSlide = nextSlide.next();
+                        }
+                        nextSlideSource = nextSlide.attr("src");
+                        nextCaption = nextSlide.attr("alt");
+                        $("#slide").attr("src", nextSlideSource).fadeIn(1000);
+                        $("#caption").text(nextCaption).fadeIn(1000);
+                    }) // end fadeOut function which fades in next slide
+                }, 3000)// end setInterval
 });// end ready function

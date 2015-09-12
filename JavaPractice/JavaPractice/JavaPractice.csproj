@@ -65,6 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\AnimjQ2.js" />
+    <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\FAQjQuery.css" />
+    <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\FAQjQuery.html" />
+    <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\images\minus.png" />
+    <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\images\plus.png" />
     <Content Include="Chapter Six\Chap 06 - SlideShow\images\casting1.jpg" />
     <Content Include="Chapter Six\Chap 06 - SlideShow\images\casting2.jpg" />
     <Content Include="Chapter Six\Chap 06 - SlideShow\images\casting3.jpg" />

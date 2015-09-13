@@ -13,7 +13,7 @@
     // Queued Animations - pg 261
     $("#faqs h1").click(function () {
         $(this).animate(
-                    { fontSize: "650%", opacity: 1, left: "+=275" }, 2000);
+                    { fontSize: ["650%", "easeInExpo"], opacity: [1, "swing"], left: ["+=275", "easeOutExpo"] }, 2000);
         $(this).animate(
                     { fontSize: "175%", opacity: 1, left: "-=100" }, 1000);
     }); // end click function

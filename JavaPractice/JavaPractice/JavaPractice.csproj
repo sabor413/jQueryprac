@@ -65,6 +65,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chapter Eight\Chap 08 - Carousel\Carousel.js" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book1.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book2.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book3.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book4.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book5.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book6.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book7.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book8.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\book9.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\Carousel.css" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\Carousel.html" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\left.jpg" />
+    <Content Include="Chapter Eight\Chap 08 - Carousel\images\right.jpg" />
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\AnimjQ2.js" />
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\AnimjQ3.js" />
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\FAQjQuery.css" />

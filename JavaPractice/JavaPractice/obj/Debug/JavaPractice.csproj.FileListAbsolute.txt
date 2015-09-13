@@ -9,3 +9,4 @@ C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\Java
 C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.pdb
 C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.dll
 C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.pdb
+C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.csprojResolveAssemblyReference.cache

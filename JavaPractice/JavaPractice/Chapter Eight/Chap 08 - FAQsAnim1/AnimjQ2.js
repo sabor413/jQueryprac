@@ -1,10 +1,23 @@
 ﻿$(document).ready(function () {
-    $("#faqs h2").click(
+    //$("#faqs h2").click(
+    //    function () {
+    //        $(this).toggleClass("minus");
+    //        $(this).next().slideToggle(1000);
+    //    }
+    //); // end toggle
+
+    $("#faqs h2").toggle(
         function () {
             $(this).toggleClass("minus");
-            $(this).next().slideToggle(1000);
+            $(this).next().slideDown(1000, "easeOutBounce");
+        },
+        function () {
+            $(this).toggleClass("minus");
+            $(this).next().slideUp(1000, "easeInBounce");
         }
     ); // end toggle
+
+    
 
     // Initial Animate Example --
     //$("#faqs h1").animate(
@@ -32,13 +45,13 @@
     }); // end click function
 
     // Queued Animations - pg 261
-    $("#faqs h1").click(function () {
-        $(this).animate(
-                    { fontSize: "650%", opacity: 1, left: "+=275" }, 2000,
-            function() {
-                $(this).animate(
-                    { fontSize: "175%", opacity: 1, left: "-=100" }, 1000);
-            } // end call back function
-        ); // end animate call with call back function
-    }); // end click function
+    //$("#faqs h1").click(function () {
+    //    $(this).animate(
+    //                { fontSize: "650%", opacity: 1, left: "+=275" }, 2000,
+    //        function() {
+    //            $(this).animate(
+    //                { fontSize: "175%", opacity: 1, left: "-=100" }, 1000);
+    //        } // end call back function
+    //    ); // end animate call with call back function
+    //}); // end click function
 }); // end ready

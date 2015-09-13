@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\AnimjQ2.js" />
+    <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\AnimjQ3.js" />
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\FAQjQuery.css" />
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\FAQjQuery.html" />
     <Content Include="Chapter Eight\Chap 08 - FAQsAnim1\images\minus.png" />

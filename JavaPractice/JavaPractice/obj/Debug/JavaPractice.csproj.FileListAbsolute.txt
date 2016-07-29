@@ -10,3 +10,9 @@ C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\Java
 C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.dll
 C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.pdb
 C:\Users\Carlos\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.csprojResolveAssemblyReference.cache
+C:\Users\carlos.rodriguez\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.dll.config
+C:\Users\carlos.rodriguez\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.dll
+C:\Users\carlos.rodriguez\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\bin\JavaPractice.pdb
+C:\Users\carlos.rodriguez\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.csprojResolveAssemblyReference.cache
+C:\Users\carlos.rodriguez\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.dll
+C:\Users\carlos.rodriguez\Documents\Projects\jQueryprac\JavaPractice\JavaPractice\obj\Debug\JavaPractice.pdb

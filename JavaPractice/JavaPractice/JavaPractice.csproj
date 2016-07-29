@@ -65,6 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AngularTraining\AngularPage.html" />
+    <Content Include="AngularTraining\app.js" />
+    <Content Include="assets\angular.min.js" />
+    <Content Include="assets\bootstrap.min.css" />
+    <Content Include="assets\bootstrap.min.js" />
     <Content Include="Chapter Eight\Chap 08 - Carousel\Carousel.js" />
     <Content Include="Chapter Eight\Chap 08 - Carousel\images\book1.jpg" />
     <Content Include="Chapter Eight\Chap 08 - Carousel\images\book2.jpg" />

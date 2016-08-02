@@ -1,5 +1,5 @@
 ﻿(function () {
-    var app = angular.module('store', []);
+    var app = angular.module('store', ['store-products']);
 
     app.controller('StoreController', function () {
         this.products = gem;
@@ -14,29 +14,6 @@
 
         this.isSelected = function (checkTab) {
             return this.tab === checkTab;
-        };
-    });
-
-    app.directive('reviewForm', function () {
-        return {
-            restrict: 'E',
-            templateUrl: 'review-form.html',
-            controller: function() {
-                this.review = {};
-
-                this.addReview = function (product) {
-                    product.reviews.push(this.review);
-                    this.review = {};
-                };
-            },
-            controllerAs: 'reviewCtrl'
-        };
-    });
-
-    app.directive('productTitle', function () {
-        return {
-            restrict: 'E',
-            templateUrl: 'product-title.html'
         };
     });
 

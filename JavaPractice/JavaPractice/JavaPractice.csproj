@@ -67,6 +67,8 @@
   <ItemGroup>
     <Content Include="AngularTraining\AngularPage.html" />
     <Content Include="AngularTraining\app.js" />
+    <Content Include="AngularTraining\product-title.html" />
+    <Content Include="AngularTraining\review-form.html" />
     <Content Include="assets\angular.min.js" />
     <Content Include="assets\bootstrap.min.css" />
     <Content Include="assets\bootstrap.min.js" />

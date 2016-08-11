@@ -1,0 +1,28 @@
+﻿<div class="conatiner appSummary ng-scope" ng-repeat="card in appCharting.cards">
+    <div class="row ng-scope">
+        <div class="col-xs-12 col-sm-4" style="margin-bottom: 15px; margin-left: 40px">
+            <h1 class="page-title"><a class="ng-binding" href="{{card.link}}">{{card.name}}</a></h1>
+            <p>{{card.subtitle}}</p>
+        </div>
+        <div class="hidden-xs col-sm-8" style="margin-bottom: 15px; margin-right: 30px">
+            <div class="row">
+                <div class="col-sm-3">Page hits / hour</div>
+                <div class="col-sm-3">Response time</div>
+                <div class="col-sm-3">Dependency response time</div>
+                <div class="col-sm-3">Exceptions</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 appData {{appCharting.pagehits(card.pagehits)}}">{{card.pagehits}}</div>
+                <div class="col-sm-3 appData {{appCharting.responsetime(card.responsetime)}}">{{card.responsetime | number:1}}s</div>
+                <div class="col-sm-3 appData {{appCharting.dependencyresponsetime(card.dependencyresponsetime)}}">{{card.dependencyresponsetime | number:1}}s</div>
+                <div class="col-sm-3 appData {{appCharting.exceptions(card.exceptions)}}">{{card.exceptions}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="row visible-xs appCombinedData">
+        <div class="col-xs-12">
+            <span class="indicator" style="left: {{card.indicator}}%"></span>
+        </div>
+    </div>
+</div>
+

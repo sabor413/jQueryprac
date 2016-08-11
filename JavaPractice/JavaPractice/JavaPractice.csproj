@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AngularTraining\products.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -196,6 +197,18 @@
     <Content Include="Chapter Three\MPGCh3.html" />
     <Content Include="Chapter Two\MPG.html" />
     <Content Include="Chapter Two\TestScore.html" />
+    <Content Include="Project Jefferson\appCard.html" />
+    <Content Include="Project Jefferson\application-chart.html" />
+    <Content Include="Project Jefferson\Content\appCardScript.js" />
+    <Content Include="Project Jefferson\Content\angular.min.js" />
+    <Content Include="Project Jefferson\Content\bootstrap.min.css" />
+    <Content Include="Project Jefferson\Content\Chart.bundle.min.js" />
+    <Content Include="Project Jefferson\Content\customtheme.css" />
+    <Content Include="Project Jefferson\Content\font-awesome.min.css" />
+    <Content Include="Project Jefferson\Content\styles.css" />
+    <Content Include="Project Jefferson\Content\toastr.min.css" />
+    <Content Include="Project Jefferson\dashboard.html" />
+    <Content Include="Project Jefferson\topnav.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

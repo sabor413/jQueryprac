@@ -1,9 +1,16 @@
 ﻿(function () {
     var app = angular.module('store', ['store-products']);
 
-    app.controller('StoreController', function () {
-        this.products = gem;
-    });
+    app.controller('StoreController', ['$http', function ($http) {
+        var store = this;
+        store.products = [];
+        
+        $http.get('products.json').success(function (data) {
+            store.products = data;
+        });
+
+        //this.products = gem; -- old way without JSON
+    }]);
 
     app.controller("PanelController", function () {
         this.tab = 1;

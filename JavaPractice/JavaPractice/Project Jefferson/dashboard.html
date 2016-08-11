@@ -1,0 +1,145 @@
+<html ng-app="app-chart">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Content/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="Content/toastr.min.css" />
+    <link rel="stylesheet" type="text/css" href="Content/customtheme.css" />
+    <link rel="stylesheet" type="text/css" href="Content/styles.css" />
+
+    <script type="text/javascript" src="../Project Jefferson/Content/angular.min.js"></script>
+    <script type="text/javascript" src="../Project Jefferson/Content/appCardScript.js"></script>
+</head>
+
+<body>
+    <div>
+        <header class="clearfix">
+            <div class="ng-scope" data-ng-include="'topnav.html'">
+                <nav class="navbar navbar-fixed-top navbar-inverse ng-scope">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/#/"><span class="brand-title ng-binding">Jefferson</span></a>
+                        <a class="btn navbar-btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <div class="pull-right navbar-logo">
+                            <ul class="nav navbar-nav pull-right">
+                                <li data-ng-show="vm.isLoggedIn()">
+                                    <a href="#/logout">
+                                        Log out
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/admin/cards">
+                                        Manage cards
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/admin/users">
+                                        Manage users
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="content" id="content">
+
+            <div class="shuffle-animation ng-scope" data-ng-view="">
+
+                <application-chart></application-chart>
+                <!--Testing Angular coding to create a chart from an angular template-->
+
+                <div class="container appSummary ng-scope">
+                    
+                    <div class="row ng-scope" <!--data-ng-repeat="card in vm.appCards.cards"-->>
+                        <div class="col-xs-12 col-sm-4">
+                            <h1 class="page-title"><a class="ng-binding" href="appCard.html">App 1</a></h1>
+                            <p>Metadata</p>
+                        </div>
+                        <div class="hidden-xs col-sm-8">
+                            <div class="row">
+                                <div class="col-sm-3">Page hits / hour</div>
+                                <div class="col-sm-3">Response time</div>
+                                <div class="col-sm-3">Dependency response time</div>
+                                <div class="col-sm-3">Exceptions</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 appData bg-success">1290</div>
+                                <div class="col-sm-3 appData bg-success">1.2s</div>
+                                <div class="col-sm-3 appData bg-warning">3.2s</div>
+                                <div class="col-sm-3 appData bg-danger">209</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row visible-xs appCombinedData">
+                        <div class="col-xs-12">
+                            <span class="indicator" style="left: 20%"></span>
+                        </div>
+                    </div>
+
+                    <div class="row ng-scope" <!--data-ng-repeat="card in vm.appCards.cards"-->>
+                        <div class="col-xs-12 col-sm-4">
+                            <h1 class="page-title"><a class="ng-binding" href="appCard.html">App 2</a></h1>
+                            <p>Metadata</p>
+                        </div>
+                        <div class="hidden-xs col-sm-8">
+                            <div class="row">
+                                <div class="col-sm-3">Page hits / hour</div>
+                                <div class="col-sm-3">Response time</div>
+                                <div class="col-sm-3">Dependency response time</div>
+                                <div class="col-sm-3">Exceptions</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 appData bg-warning">700</div>
+                                <div class="col-sm-3 appData bg-danger">5.0s</div>
+                                <div class="col-sm-3 appData bg-danger">4.7s</div>
+                                <div class="col-sm-3 appData bg-danger">209</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row visible-xs appCombinedData">
+                        <div class="col-xs-12">
+                            <span class="indicator" style="left: 80%"></span>
+                        </div>
+                    </div>
+
+                    <div class="row ng-scope" <!--data-ng-repeat="card in vm.appCards.cards"-->>
+                        <div class="col-xs-12 col-sm-4">
+                            <h1 class="page-title"><a class="ng-binding" href="appCard.html">App 3</a></h1>
+                            <p>Metadata</p>
+                        </div>
+                        <div class="hidden-xs col-sm-8">
+                            <div class="row">
+                                <div class="col-sm-3">Page hits / hour</div>
+                                <div class="col-sm-3">Response time</div>
+                                <div class="col-sm-3">Dependency response time</div>
+                                <div class="col-sm-3">Exceptions</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3 appData bg-success">1500</div>
+                                <div class="col-sm-3 appData bg-success">0.5s</div>
+                                <div class="col-sm-3 appData bg-success">1.0s</div>
+                                <div class="col-sm-3 appData bg-success">20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row visible-xs appCombinedData">
+                        <div class="col-xs-12">
+                            <span class="indicator" style="left: 2%"></span>
+                        </div>
+                    </div>
+                </div>
+                                
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

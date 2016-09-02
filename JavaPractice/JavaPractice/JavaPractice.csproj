@@ -58,6 +58,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AngularTraining\products.json" />
+    <Content Include="Bootstrap\assets\css\bootstrap-theme.css" />
+    <Content Include="Bootstrap\assets\css\bootstrap-theme.min.css" />
+    <Content Include="Bootstrap\assets\css\bootstrap.css" />
+    <Content Include="Bootstrap\assets\css\bootstrap.min.css" />
+    <Content Include="Bootstrap\assets\css\Custom.css" />
+    <Content Include="Bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Bootstrap\assets\css\bootstrap-theme.css.map" />
+    <Content Include="Bootstrap\assets\css\bootstrap-theme.min.css.map" />
+    <Content Include="Bootstrap\assets\css\bootstrap.css.map" />
+    <Content Include="Bootstrap\assets\css\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,6 +87,12 @@
     <Content Include="assets\angular.min.js" />
     <Content Include="assets\bootstrap.min.css" />
     <Content Include="assets\bootstrap.min.js" />
+    <Content Include="Bootstrap\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Bootstrap\assets\img\blastingoff.png" />
+    <Content Include="Bootstrap\assets\js\bootstrap.js" />
+    <Content Include="Bootstrap\assets\js\bootstrap.min.js" />
+    <Content Include="Bootstrap\assets\js\npm.js" />
+    <Content Include="Bootstrap\BasicPage.html" />
     <Content Include="Chapter Eight\Chap 08 - Carousel\Carousel.js" />
     <Content Include="Chapter Eight\Chap 08 - Carousel\images\book1.jpg" />
     <Content Include="Chapter Eight\Chap 08 - Carousel\images\book2.jpg" />

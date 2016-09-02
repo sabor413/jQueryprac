@@ -1,0 +1,11 @@
+﻿h1 {
+    font-size: 40px;
+}
+.features .glyphicon {
+    font-size: 32px;
+    color: red;
+}
+.row-space {
+    padding: 10px 0;
+    display: block;
+}
